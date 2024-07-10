@@ -8,11 +8,11 @@ export default function projects() {
             img: SIRW03Thumbnail,
             desc: 'Sistem Informasi Rukun Warga 03 Mergosono berbasis aplikasi web. '
         },
-        {
-            name: 'Project 2',
-            img: ProjectImg,
-            desc: 'lorem ipsum'
-        }
+        // {
+        //     name: 'Project 2',
+        //     img: ProjectImg,
+        //     desc: 'lorem ipsum'
+        // }
     ];
 
     return data;
