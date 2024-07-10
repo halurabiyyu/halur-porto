@@ -18,10 +18,10 @@ export default function Projects() {
         <h1 className="m-8 text-4xl font-bold text-center ">My Projects</h1>
         <div className='grid grid-flow-row lg:grid-cols-4 gap-4 mx-auto my-8 w-[80%]'>
           {data.map((item) => (
-            <div key={item.name} data-aos="zoom-in-up" className='bg-white rounded-sm shadow-md p-4 w-auto'>
+            <div key={item.name} data-aos="zoom-in-up" className='bg-white rounded-sm shadow-md p-4 w-auto max-h-max overflow-auto'>
               <img src={item.img} alt="" className="h-[45%] w-[95%] mx-auto "/>
               <h3 className='text-md font-bold my-8'>{item.name}</h3>
-              <p>{item.desc}</p>
+              <p className="">{item.desc}</p>
             </div>
           ))}
         </div>
