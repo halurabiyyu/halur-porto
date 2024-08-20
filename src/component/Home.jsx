@@ -107,19 +107,25 @@ export default function Home() {
             }}
           />
         </div>
-        <div className="mx-auto lg:flex lg:justify-between max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto lg:flex lg:justify-between max-w-2xl py-32 sm:py-48 lg:py-40">
           <div className="block lg:hidden">
-            <img src={PhotoProfile} alt="Contoh Gambar" className="w-full h-auto" />
+            <img
+              src={PhotoProfile}
+              alt="Contoh Gambar"
+              className="w-full h-auto"
+            />
           </div>
           <div className="flex justify-between">
-            <div className="">
+            <div className="max-w-4xl">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 Halur Muhammad Abiyyu
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+                I am Halur Muhammad Abiyyu, a D4 Informatics Engineering student
+                at Politeknik Negeri Malang. I am an experienced software
+                developer with expertise in front-end and full-stack
+                development, proficient in React, Laravel, and Git/GitHub. I am
+                dedicated to creating high-quality, responsive web applications.
               </p>
               <div className="mt-10 flex items-center justify-start gap-x-6">
                 <a
@@ -150,8 +156,12 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="hidden lg:block">
-            <img src={PhotoProfile} alt="Contoh Gambar" className="w-full h-auto" />
+          <div className="ms-6 hidden lg:block">
+            <img
+              src={PhotoProfile}
+              alt="Contoh Gambar"
+              className="w-full h-auto"
+            />
           </div>
         </div>
 
