@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Logo from "../assets/img/logo-man.svg";
+import PhotoProfile from "../assets/img/photo-profile.png";
 
 const navigation = [
   { name: "Educations", href: "#education" },
@@ -108,7 +109,7 @@ export default function Home() {
         </div>
         <div className="mx-auto lg:flex lg:justify-between max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="block lg:hidden">
-            <img src={Logo} alt="Contoh Gambar" className="w-full h-auto" />
+            <img src={PhotoProfile} alt="Contoh Gambar" className="w-full h-auto" />
           </div>
           <div className="flex justify-between">
             <div className="">
@@ -150,7 +151,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hidden lg:block">
-            <img src={Logo} alt="Contoh Gambar" className="w-full h-auto" />
+            <img src={PhotoProfile} alt="Contoh Gambar" className="w-full h-auto" />
           </div>
         </div>
 
