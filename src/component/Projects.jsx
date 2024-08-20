@@ -1,9 +1,6 @@
 import React,{useEffect} from "react";
-// importing aos
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import ProjectList from './ProjectList'; // Adjust the import path as necessary
-import ProjectImg from '../assets/project-test-img.png'
 import projects from '../assets/projects'
 
 export default function Projects() {

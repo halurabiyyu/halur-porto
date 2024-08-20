@@ -1,6 +1,5 @@
-import ProjectImg from './project-test-img.png';
-import MamCatering from './mam_catering.png';
-import SIRW03Thumbnail from './sirw_thumbnail.png';
+import MamCatering from './img/mam-catering-web.png';
+import SIRW03Thumbnail from './img/sirw_thumbnail.png';
 
 export default function projects() {
     const data = [

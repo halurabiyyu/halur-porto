@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Logo from "../assets/logo-man.svg";
+import Logo from "../assets/img/logo-man.svg";
 
 const navigation = [
   { name: "Educations", href: "#education" },
