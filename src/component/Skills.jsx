@@ -2,7 +2,7 @@ import React from "react";
 import JavaLogo from "../assets/img/java.png";
 import JavascriptLogo from "../assets/img/javascript.png";
 import PhpLogo from "../assets/img/PHP.png";
-import LaravelLogo from "../assets/img/laravel.png";
+import LaravelLogo from "../assets/img/Laravel.png";
 import MysqlLogo from "../assets/img/mysql.png";
 import ReactjsLogo from "../assets/img/reactjs.png";
 import NodejsLogo from "../assets/img/nodejs.png";
