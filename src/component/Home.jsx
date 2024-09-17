@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -14,7 +15,7 @@ import Projects from "./Projects";
 import Profile from "./Profile";
 
 const navigation = [
-  { name: "--Profile--", href: "/profile" },
+  { name: "--Profile--", href: "/" },
   { name: "--Project--", href: "/project" },
   { name: "--Contact--", href: "/contact" },
 ];
@@ -29,8 +30,8 @@ export default function Home() {
           <div className="bg-white drop-shadow flex gap-1 m-auto rounded h-[70%] w-[70%]">
             <div className="container flex gap-1 flex-col-reverse w-[30%] h-full">
               <div className="container h-[30%] w-full rounded p-2 flex flex-col outline-double outline-amber-800">
-                <h1>&copy; 2024 Halur Abiyyu, Inc. All rights reserved.</h1>
-                <small className="mt-5 text-slate-500">this web created with reactjs & tailwind</small>
+                <h1 className="text-sm">&copy; 2024 Halur Abiyyu, Inc. All rights reserved.</h1>
+                <small className="text-sm text-slate-500">created with reactjs & tailwind</small>
               </div>
               <div className="container w-full h-full rounded items-center gap-3 p-2 flex flex-col outline-double outline-amber-800">
                 <img src={PhotoProfile} className="w-40 h-40 mt-5" alt="" />
@@ -61,7 +62,7 @@ export default function Home() {
             </div>
             <div className="container items-center h-full p-2 flex rounded flex-col outline-double outline-amber-800">
               <Routes>
-                <Route path="/profile" element={<Profile />} />
+                <Route path="/" element={<Profile />} />
                 <Route path="/project" element={<Projects />} />
               </Routes>
             </div>

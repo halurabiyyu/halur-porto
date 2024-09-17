@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import JavaLogo from "../assets/img/java.png";
 import JavascriptLogo from "../assets/img/javascript.png";
