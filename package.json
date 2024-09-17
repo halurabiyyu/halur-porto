@@ -13,10 +13,13 @@
     "@headlessui/react": "^2.0.4",
     "@heroicons/react": "^2.1.4",
     "aos": "^2.3.4",
+    "flowbite": "^2.5.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.3",
     "react-dom": "^18.2.0",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-router-dom": "^6.26.2",
+    "react-vertical-timeline-component": "^3.6.0",
+    "typed.js": "^2.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
