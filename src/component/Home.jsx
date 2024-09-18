@@ -13,6 +13,7 @@ import {
 import PhotoProfile from "../assets/img/photo-profile.png";
 import Projects from "./Projects";
 import Profile from "./Profile";
+import Contact from "./Contact";
 
 const navigation = [
   { name: "--Profile--", href: "/" },
@@ -64,6 +65,7 @@ export default function Home() {
               <Routes>
                 <Route path="/" element={<Profile />} />
                 <Route path="/project" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
               </Routes>
             </div>
           </div>
