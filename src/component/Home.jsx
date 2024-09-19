@@ -31,8 +31,12 @@ export default function Home() {
           <div className="bg-white drop-shadow flex gap-1 m-auto rounded h-[70%] w-[70%]">
             <div className="container flex gap-1 flex-col-reverse w-[30%] h-full">
               <div className="container h-[30%] w-full rounded p-2 flex flex-col outline-double outline-amber-800">
-                <h1 className="text-sm">&copy; 2024 Halur Abiyyu, Inc. All rights reserved.</h1>
-                <small className="text-sm text-slate-500">created with reactjs & tailwind</small>
+                <h1 className="text-sm">
+                  &copy; 2024 Halur Abiyyu, Inc. All rights reserved.
+                </h1>
+                <small className="text-sm text-slate-500">
+                  created with reactjs & tailwind
+                </small>
               </div>
               <div className="container w-full h-full rounded items-center gap-3 p-2 flex flex-col outline-double outline-amber-800">
                 <img src={PhotoProfile} className="w-40 h-40 mt-5" alt="" />
