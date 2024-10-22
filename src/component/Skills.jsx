@@ -28,7 +28,7 @@ export default function Skills() {
       {skillsLogo.map((item) => (
         <img
           src={item.href}
-          className="w-12 h-12 object-contain"
+          className="w-6 h-6 lg:w-12 lg:h-12 object-contain"
           alt={item.name}
           key={item.name}
         />
