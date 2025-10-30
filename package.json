@@ -1,36 +1,29 @@
 {
-  "name": "portofolio-halur",
+  "name": "research-website-template",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^2.0.4",
-    "@heroicons/react": "^2.1.4",
-    "aos": "^2.3.4",
-    "flowbite": "^2.5.1",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.10.3",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.3.0",
-    "react-router-dom": "^6.26.2",
-    "react-vertical-timeline-component": "^3.6.0",
-    "typed.js": "^2.1.0"
+    "lucide-react": "^0.469.0",
+    "next": "15.1.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.66",
-    "@types/react-dom": "^18.2.22",
-    "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.6",
-    "tailwindcss": "^3.4.4",
-    "vite": "^5.2.0"
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.3",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
